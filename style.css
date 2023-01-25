@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container{
+   background-color: #2A1B18;
+   padding: 30px;
+   border-radius: 10px;
+}
+.main-div{
+    color: white;
+    font-family: cursive;
+}
+
+.main-div h3{
+    padding: 5px 0px;
+}
+
+.bill-input{
+    padding: 7px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.tip-input{
+    padding: 7px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.people .plus{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.people .minus{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.total{
+    margin-top: 20px;
+}
+
+
+
+
+.people{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: rgb(213, 119, 82);
+    color: white;
+    border-radius: 40px;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor:  pointer;
+}
+
+.btn:hover{
+    background-color:lightsalmon;
+}
+
